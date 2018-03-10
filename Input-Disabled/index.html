@@ -4,11 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Input Disable</title>
+  <title>Input Disabled</title>
 </head>
 <body>
-  <input type="text">
+  <input type="text" data-js="input">
   <label for="check">Disable</label>
-  <input type="checkbox" id="check">
+  <input type="checkbox" id="check" data-js="checkbox">
+
+  <script>
+    
+    let inputText = document.querySelector('[data-js="input"]');
+    let btnCheck = document.querySelector('[data-js="checkbox"]');
+    
+    btnCheck.addEventListener('change', disableInput);
+
+    function disableInput () {
+      if(this.checked)
+        return inputText.setAttribute('disabled', 'true');
+      
+      return inputText.removeAttribute('disabled');
+    }
+  </script>
 </body>
 </html>
+
+
+
