@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CPF-Validator</title>
+</head>
+<body>
+  <h1>Verify if CPF is Valid</h1>
+  <form action="" data-js="form">
+    <input type="text" data-js="cpf">
+    <input type="submit" value="Verify">
+  </form>
+
+  <div data-js="cpfs">
+    <h2>List of valid CPFs</h2>
+  </div>
+</body>
+
+<script>
+  const $form = document.querySelector('[data-js="form"]');
+  const $cpfInput = document.querySelector('[data-js="cpf"]');
+  const $cpfList = document.querySelector('[data-js="cpfs"]');
+  
+  $form.addEventListener('submit', function(event){
+    event.preventDefault();
+    showCpfs(validateCpf($cpfInput), $cpfInput);
+  });
+
+
+
+  function validateCpf (cpf) {
+    let regexCpf = /\d{3}\d{3}\d{3}\d{2}/;
+    return !!cpf.value.split(/\D/).join('').match(regexCpf);
+  }
+
+  function changeInputBorderColor (cpfValid, input) {
+    if(!cpfValid)
+      return input.style.border = '2px solid red'
+    return input.style.border = '2px solid green'
+  }
+
+  function showCpfs (verifyCpf, cpf) {
+    let $cpfH2 = `<h2>${cpf.value}</h2>`;
+    if(verifyCpf)
+      $cpfList.innerHTML += $cpfH2;
+    return changeInputBorderColor(verifyCpf, $cpfInput);
+  }
+
+</script>
+</html>
