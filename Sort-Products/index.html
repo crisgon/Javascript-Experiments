@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sort Products</title>
+  <style>
+    li {
+      width: 300px;
+      padding: .5em;
+      margin: 2em 0;
+      display: flex;
+      justify-content: space-between;
+      background-color: slateblue;
+      color: #fff;
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sort Products</h1>
+  <label>
+    Sort by
+    <select data-js="sort">
+      <option value="biggestPrice">Biggest Price</option>
+      <option value="lowestPrice">Lowest Price</option>
+      <option value="bestRated">Best Rated</option>
+      <option value="worstRated">Worst Rated</option>
+    </select>
+  </label>
+  <h2 data-js="message"></h2>
+  <ul data-js="products"></ul>
+  <script src="/main.js"></script>
+</body>
+</html>
