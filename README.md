@@ -13,4 +13,7 @@ Inspired on [wbruno](https://github.com/wbruno/examples)
 - [Filter List](https://crisgon.github.io/Javascript-Experiments/Filter/)
 - [Copy](https://crisgon.github.io/Javascript-Experiments/Copy/)
 - [Sort Products](https://crisgon.github.io/Javascript-Experiments/Sort-Products/index.html)
-- [Raffle Names](https://crisgon.github.io/Javascript-Experiments/Raffle-Names/index.html)
+- [Raffle Names](https://crisgon.github.io/Javascript-Experiments/Raffle-Names/)
+- [Drag and Drop](https://crisgon.github.io/Javascript-Experiments/Drag-and-Drop/)
+
+

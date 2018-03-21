@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Drag and Drop</title>
+  <style>
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+
+    .allDropZone {
+      display: flex;
+      text-align: center;
+    }
+
+    .box-drop {
+      width: 400px;
+      min-height: 400px;
+      background: #ddd;
+      margin: 50px;
+      box-sizing: border-box;
+      padding: 1em 0;
+      font-size: 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1>Drag and drop</h1>
+  <p>
+    <img src="https://findicons.com/files/icons/343/fruits/128/banana.png" alt="Banana icon" data-js="imgDrag" id="banana">
+    <img src="http://www.iconninja.com/files/997/155/746/dog-icon.png" alt="Dog icon" data-js="imgDrag" id="dog">
+    <img src="https://image.flaticon.com/icons/png/128/415/415733.png" alt="Apple icon" data-js="imgDrag" id="apple">
+    <img src="http://wfarm3.dataknet.com/static/resources/icons/set111/42330e0.png" alt="Cat icon" data-js="imgDrag" id="cat">
+    <img src="http://icons.iconarchive.com/icons/martin-berube/food/128/strawberry-icon.png" alt="Strawbery icon" data-js="imgDrag" id="strawberry">
+    <img src="https://findicons.com/files/icons/861/tweet_my_web/128/single_bird.png" alt="Bird icon" data-js="imgDrag" id="bird">
+  </p>
+  <div class="allDropZone"> 
+    <div><h2>Fruits</h2> <p data-js="animalsDropZone" class="box-drop">Drop here</p></div>
+    <div><h2>Animals</h2> <p data-js="fruitsDropZone" class="box-drop">Drop here</p></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
