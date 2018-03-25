@@ -15,5 +15,6 @@ Inspired on [wbruno](https://github.com/wbruno/examples)
 - [Sort Products](https://crisgon.github.io/Javascript-Experiments/Sort-Products/index.html)
 - [Raffle Names](https://crisgon.github.io/Javascript-Experiments/Raffle-Names/)
 - [Drag and Drop](https://crisgon.github.io/Javascript-Experiments/Drag-and-Drop/)
+- [Count Character Remaining](https://crisgon.github.io/Javascript-Experiments/Count-Character-Remaining/)
 
 
