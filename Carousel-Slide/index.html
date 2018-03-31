@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Carousel Slide</title>
+  <style>
+    .content {
+      width: 800px;
+    }
+    .slide {
+      display: flex;
+      overflow: hidden;
+    }
+
+    .slide img {
+      margin: 0 10px;
+      transition: all .4s;
+    }
+
+    .control {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple Carousel</h1>
+  <main class="content" data-js="slide-container">
+    <div class="slide" data-js="slide-items">
+      <img src="images/1.jpg" alt="Image 1">
+      <img src="images/2.jpg" alt="Image 2">
+      <img src="images/3.jpg" alt="Image 3">
+      <img src="images/4.jpg" alt="Image 4">
+    </div>
+    <div class="control">
+      <button data-js="prev">Prev</button>
+      <button data-js="next">Next</button>
+    </div>
+  </main>
+  <script src="carousel.js"></script>
+</body>
+</html>
