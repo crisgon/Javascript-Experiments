@@ -31,7 +31,7 @@
   let $singleCard;
 
   function app() {
-    creatCards();
+    createCards();
     return {
       init() {
         win.addEventListener('load', ()=> {
@@ -42,7 +42,7 @@
       }
     };
 
-    function creatCards() {
+    function createCards() {
       let cardsHTML = profiles.map(profile => {
         return `    <div class="card" data-js="card">
                       <img src="${profile.picture}" alt="">
