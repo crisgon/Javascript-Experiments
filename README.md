@@ -18,4 +18,6 @@ Inspired on [wbruno](https://github.com/wbruno/examples)
 - [Count Character Remaining](https://crisgon.github.io/Javascript-Experiments/Count-Character-Remaining/)
 - [Simple Carousel](https://crisgon.github.io/Javascript-Experiments/Carousel-Slide/)
 - [Swipe Cards](https://crisgon.github.io/Javascript-Experiments/Swipe-Cards/)
+- [Simple Infinite Scroll](https://crisgon.github.io/Javascript-Experiments/Simple-Infinite-Scroll/)
+
 
