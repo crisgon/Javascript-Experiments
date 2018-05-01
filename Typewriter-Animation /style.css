@@ -1,0 +1,29 @@
+body {
+  background-color: #f1c40f;
+}
+
+.text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  text-align: center;
+}
+
+.text:after {
+  content: '|';
+  position: relative;
+  right: 0;
+  animation: barAnimation .5s infinite;
+}
+
+@keyframes barAnimation {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
