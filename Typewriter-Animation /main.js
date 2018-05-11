@@ -20,6 +20,7 @@
         text.innerHTML = textArr.join('');
       }, 100 * index);
     });
+    console.log(textArr)
     textArr = [...textContent];
   }
 

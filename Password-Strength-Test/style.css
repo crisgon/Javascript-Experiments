@@ -1,0 +1,65 @@
+:root {
+  --requisite1:#dcdde1;
+  --requisite2:#dcdde1;
+  --requisite3:#dcdde1;
+}
+.form {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#pass,
+#confirmPass {
+  width: 100%;
+  box-sizing: border-box;
+  padding: .5em;
+  margin: .5em 0;
+  position: relative;
+}
+
+.requisites {
+  width: 100%;
+  color: #dcdde1;
+  padding: 0 1em;
+  position: relative;
+}
+
+#requisite-1:after,
+#requisite-2:after,
+#requisite-3:after {
+	content: '';
+	width: 30%;
+	height: 10px;
+	background-color: #dcdde1;
+	
+	position: absolute;
+  top: -15px;
+}
+
+#requisite-1:after {
+  left: 0;
+}
+
+#requisite-2:after {
+  left: 30%;
+}
+
+#requisite-3:after {
+  left: 60%;
+}
+
+.approved#requisite-1:after {
+  background-color: var(--requisite1);
+}
+
+.approved#requisite-2:after {
+  background-color: var(--requisite2);
+}
+
+.approved#requisite-3:after {
+  background-color: var(--requisite3);
+}

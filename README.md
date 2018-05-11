@@ -19,5 +19,6 @@ Inspired on [wbruno](https://github.com/wbruno/examples)
 - [Simple Carousel](https://crisgon.github.io/Javascript-Experiments/Carousel-Slide/)
 - [Swipe Cards](https://crisgon.github.io/Javascript-Experiments/Swipe-Cards/)
 - [Simple Infinite Scroll](https://crisgon.github.io/Javascript-Experiments/Simple-Infinite-Scroll/)
-
+- [Typewriter Animation](http://cristianogoncalves.me/Javascript-Experiments/Typewriter-Animation%20/index.html)
+- [Password Strength](http://cristianogoncalves.me/Javascript-Experiments/Password-Strength-Test/index.html)
 
