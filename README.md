@@ -21,4 +21,4 @@ Inspired on [wbruno](https://github.com/wbruno/examples)
 - [Simple Infinite Scroll](https://crisgon.github.io/Javascript-Experiments/Simple-Infinite-Scroll/)
 - [Typewriter Animation](http://cristianogoncalves.me/Javascript-Experiments/Typewriter-Animation%20/index.html)
 - [Password Strength](http://cristianogoncalves.me/Javascript-Experiments/Password-Strength-Test/index.html)
-
+- [Instagram Emoji Slider](http://cristianogoncalves.me/Javascript-Experiments/Instagram-Emoji-Slider/index.html)
