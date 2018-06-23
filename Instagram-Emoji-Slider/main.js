@@ -7,7 +7,7 @@ inputRange.addEventListener('input', function (e) {
   moveEmoji(this.value);
 });
 
-window.addEventListener('mouseup', function () {
+inputRange.addEventListener('mouseup', function () {
   hideEmoji();
   inputRange.classList.add('showResult');
 });
