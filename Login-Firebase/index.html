@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Firebase Login</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <h3 id="message">You are disconnected</h3>
+  <form action="" class="center">
+    <label for="email">E-mail</label>
+      <input type="email" name="email" id="email">
+    <label for="pass">Password</label>
+      <input type="password" name="" id="pass">
+
+    <button id="login">Login</button>
+    <button id="createAccount">Create Account</button>
+    <span id="infoMsg"></span>
+    <div class="social">
+      <button id="github">Github</button>
+      <button id="facebook">Facebook</button>
+      <button id="google">Google</button>
+    </div>
+    <button id="logout">Sign Out</button>
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

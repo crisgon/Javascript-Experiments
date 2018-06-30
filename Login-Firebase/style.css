@@ -1,0 +1,59 @@
+body  {
+  background-color: #353b48;
+}
+
+h1,
+h3 {
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: .5em;
+}
+
+label {
+  color: #fff;
+}
+
+input[type="email"],
+input[type="password"]  {
+  padding: 1em;
+  margin: .5em 0;
+  border: 0;
+}
+
+button {
+  color: #fff;
+  box-sizing: border-box;
+  padding: 1em;
+  margin: .5em 0;
+  border: 0;
+  cursor: pointer;
+}
+
+#login {
+  background-color: #3498db;
+}
+
+#createAccount {
+  background-color: #f1c40f;
+}
+
+#infoMsg {
+  color: #fff;
+}
+
+#github { color: #000;}
+#facebook { background-color: #4a69bd;}
+#google { background-color: #d63031;}
